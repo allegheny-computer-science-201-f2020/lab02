@@ -48,7 +48,7 @@ and to implement a lexical analyzer and a parser for the specified language.
 
 Please watch a video introducing this lab assignment under the course's YouTube
 playlist:
-[![Lab 02 Assignment Introduction](Lab02_YouTubeThumbnail_small.png)](https://www.youtube.com/playlist?list=PLz9YRLfRGO9JpJfVknMPnK_jagA0mgxN0)
+[Lab 02 Assignment Introduction](https://www.youtube.complaylist?list=PLz9YRLfRGO9JpJfVknMPnK_jagA0mgxN0)
 
 ## Objectives
 
