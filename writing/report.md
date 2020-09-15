@@ -25,7 +25,7 @@ Describe the features of the parser implementation
 ## Challenges and Learning Experiences
 
 TODO:
-Discuss any challenges you have encountered during the work on this lab and  
+Discuss any challenges you have encountered during the work on this lab and 
 describe what have you learned.
 
 ## Team Work

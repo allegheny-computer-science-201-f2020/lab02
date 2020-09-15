@@ -28,11 +28,11 @@
 
 * [Running and Testing](#running-and-testing)
 
-  + [Docker](#docker)
+  * [Docker](#docker)
 
-  + [GatorGrader](#gatorgrader)
+  * [GatorGrader](#gatorgrader)
 
-  + [GitHub Actions CI](#github-actions-ci)
+  * [GitHub Actions CI](#github-actions-ci)
 
 * [Evaluation](#evaluation)
 
@@ -47,8 +47,8 @@ assignment invites teams of two or three to design a simple programming language
 and to implement a lexical analyzer and a parser for the specified language.
 
 Please watch a video introducing this lab assignment under the course's YouTube
-playlist: [![Lab 02 Assignment Introduction](Lab02_YouTubeThumbnail_small.png)]
-(https://www.youtube.com/playlist?list=PLz9YRLfRGO9JpJfVknMPnK_jagA0mgxN0)
+playlist:
+[![Lab 02 Assignment Introduction](Lab02_YouTubeThumbnail_small.png)](https://www.youtube.com/playlist?list=PLz9YRLfRGO9JpJfVknMPnK_jagA0mgxN0)
 
 ## Objectives
 
@@ -68,8 +68,9 @@ the documentation of [SLY](https://sly.readthedocs.io/en/latest/) and the
 examples provided in
 [SLY GitHub Repository](https://github.com/dabeaz/sly/tree/master/example).
 
-If you have not done so already, please read all of the relevant [GitHub Guides]
-(https://guides.github.com/) that explain how to use many of the features
+If you have not done so already, please read all of the relevant
+[GitHub Guides](https://guides.github.com/) that explain how to use
+many of the features
 that GitHub provides. In  particular,  please  make  sure  that  you  have  read
 guides  such  as  "Understanding the GitHub flow", "Mastering  Markdown"
 and "Documenting Your Projects on GitHub";
@@ -152,8 +153,7 @@ At the minimum, your scanner should support the following:
 * recognize at least one conditional statement,
 * recognize new lines,
 * recognize comments,
-* report lexical errors for invalid characters and any other improper lexical
-notations you are able to catch at this point.
+* report lexical errors for invalid characters and any other improper lexical notations you are able to catch at this point.
 
 It is recommended that you add token types one at a time and test after each addition.
 For any items that are not explicitly defined in your source language documentation,
@@ -297,13 +297,12 @@ sections.
 The grade that a student receives on this assignment will have the following
 components. In addition
 to these three main components, student's grade may be affected by their
-adherence or the lack of adherence
-to the [Code of Conduct]
-(https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
+adherence or the lack of adherence to the
+[Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
 developed for this course.
 
 * Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build
-Status  [up  to 15%]:  Students are encouraged to repeatedly revise their
+Status [up  to 15%]:  Students are encouraged to repeatedly revise their
 submission to ensure that it passes all of GatorGrader's checks about, for
 instance, the length of the report, its appropriate use of Markdown, and
 inclusion of minimal programming constraints.
