@@ -12,21 +12,19 @@
 
 * [Reading Assignment](#reading-assignment)
 
+* [Accessing the Repository](#accessing-the-repository)
+
 * [Creating a Programming Language](#creating-a-programming-language)
-
-  + [Accessing the Repository](#accessing-the-repository)
-
-  + [Team Work](#team-work)
 
   + [Tasks](#tasks)
 
-    + [Grammar](#grammar)
+  + [Grammar](#grammar)
 
-    + [Scanner](#scanner)
+  + [Scanner](#scanner)
 
-    + [Parser](#parser)
+  + [Parser](#parser)
 
-    + [Test Cases](#test-cases)
+  + [Test Cases](#test-cases)
 
 * [Running and Testing](#running-and-testing)
 
@@ -45,10 +43,12 @@
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
 repository contains starter materials for lab 02 in [Computer Science 201 Fall
 2020](https://cs.allegheny.edu/sites/jjumadinova/teaching/201). The lab02
-assignment invites teams of two or three to design a simple programming language and to
-implement a lexical analyzer and a parser for the specified language.
+assignment invites teams of two or three to design a simple programming language
+and to implement a lexical analyzer and a parser for the specified language.
 
-Please watch a video introducing this lab assignment under the course's YouTube playlist: [![Lab 02 Assignment Introduction](Lab02_YouTubeThumbnail_small.png)](https://www.youtube.com/playlist?list=PLz9YRLfRGO9JpJfVknMPnK_jagA0mgxN0)
+Please watch a video introducing this lab assignment under the course's YouTube
+playlist: [![Lab 02 Assignment Introduction](Lab02_YouTubeThumbnail_small.png)]
+(https://www.youtube.com/playlist?list=PLz9YRLfRGO9JpJfVknMPnK_jagA0mgxN0)
 
 ## Objectives
 
@@ -65,10 +65,11 @@ and 2 of the "Programming Language Pragmatics" textbook. You should also
 study the program developed as a part of class activity 3, examine
 example programs provided in this lab02 starter repository, and study
 the documentation of [SLY](https://sly.readthedocs.io/en/latest/) and the
-examples provided in [SLY GitHub Repository](https://github.com/dabeaz/sly/tree/master/example).
+examples provided in [SLY GitHub Repository]
+(https://github.com/dabeaz/sly/tree/master/example).
 
-If you have not done so already, please read all of the relevant [GitHub Guides](https://guides.github.com/)
-that explain how to use many of the features
+If you have not done so already, please read all of the relevant [GitHub Guides]
+(https://guides.github.com/) that explain how to use many of the features
 that GitHub provides. In  particular,  please  make  sure  that  you  have  read
 guides  such  as  "Understanding the GitHub flow", "Mastering  Markdown"  
 and "Documenting Your Projects on GitHub";
@@ -76,19 +77,19 @@ each of them will help you to understand how to use both GitHub and GitHub Class
 Each team is expected to use branching and appropriate GitHub flow processes as
 the work on the lab progresses.
 
-## Creating a Programming Language
+## Accessing the Repository
 
-### Accessing the Repository
-
-For this assignment, we will be using a group assignment functionality of GitHub Classroom.
-For group assignments only one person will be creating the team on GitHub Classroom while the other
-team members will join that team. Please form a team consisting of two or three members,
-assign one person to be the designated team manager.
+For this assignment, we will be using a group assignment functionality of
+GitHub Classroom. For group assignments only one person will be creating the
+team on GitHub Classroom while the other
+team members will join that team. Please form a team consisting of two or three
+members, assign one person to be the designated team manager.
 
 The selected team manager should go into the #labs channel in our Slack team and
 find the announcement that provides a link for it. Copy this link and paste it
 into your web browser. Now, you should accept the laboratory assignment and
-create a new team with a unique and descriptive team name (under "Or Create a new team").
+create a new team with a unique and descriptive team name
+(under "Or Create a new team").
 Now the other members of the team can click on the assignment link in the #labs
 channel and select their team from the list under "Join an Existing Team".
 When other team members join their group in GitHub Classroom, a team is created
@@ -97,7 +98,7 @@ threaded comments and emoji support. Every team member will be able to push
 and pull to their team’s repository.
 
 
-### Team Work
+## Team Work
 
 Each member of the class will be arranged into a team at the beginning
 of the lab session. Class members are invited to select their own teams consisting
@@ -108,12 +109,15 @@ commit log, and code review request) to complete all of the tasks referenced in
 the previous section.  Since  multiple  approaches  may  support  
 the  effective  completion  of  the required  documents, this assignment
 does not dictate team organization or communication strategies. Each team is
-expected to follow the [Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md) the class members developed for this course.
+expected to follow the [Code of Conduct]
+(https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
+the class members developed for this course.
 
-### Tasks
+## Creating a Programming Language
 
 For this laboratory assignment,  your  task  is to design a specification
-for a very simple toy programming language and implement a scanner and a parser for this language.
+for a very simple toy programming language and implement a scanner and a parser
+for this language.
 You are encouraged to be creative in your design of a language, however it
 should satisfy the certain minimal requirements outlined below.
 
@@ -121,7 +125,8 @@ should satisfy the certain minimal requirements outlined below.
 
 Once you have an idea for the type of a language to construct, the
 first step should be to define its grammar. Please construct grammar rules
-in a BNF format that generate your language in the appropriate section of the `report.md` file.
+in a BNF format that generate your language in the appropriate section of
+the `report.md` file.
 
 Your grammar should be a CFG grammar that starts with a start terminal and
 provides rules for things such statements, expressions, and derivations of
@@ -159,16 +164,19 @@ you can make any assumptions as appropriate.
 ### Parser
 
 Once you are able to generate a token stream for various inputs appropriate for
-your language, you will expand the front-end of your compiler by implementing a parser
-for it. Please note that at this stage it is likely that you will need to expand
-and/or modify parts of your scanner to get your parsing to work correctly - this is okay and expected!
+your language, you will expand the front-end of your compiler by implementing
+a parser for it. Please note that at this stage it is likely that you will need
+to expand and/or modify parts of your scanner to get your parsing to work
+correctly - this is okay and expected!
 Any conflicts can be resolved in a multitude of ways (rewriting the productions,
-setting precedence, etc.) and you are free to take whatever approach appeals to you.
-All you need to ensure is that you end up with a grammar that is free of conflicts and errors.
+setting precedence, etc.) and you are free to take whatever approach appeals to
+you. All you need to ensure is that you end up with a grammar that is free of
+conflicts and errors.
 
-To implement a parser you need to add the rules for each of your language's grammar features.
-Remember that syntax analysis is only responsible for verifying that the sequence of
-tokens forms a valid sentence given the definition of the grammar. Given that some
+To implement a parser you need to add the rules for each of your language's
+grammar features. Remember that syntax analysis is only responsible for
+verifying that the sequence of tokens forms a valid sentence given the
+definition of the grammar. Given that some
 grammars can be somewhat loose, some apparently nonsensical constructions will
 parse correctly since you are not doing any of the work for verify semantic
 validity (type checking, declare before use, etc.).
@@ -206,7 +214,8 @@ two commands, which are appropriate for your operating system.
 
 ### GatorGrader
 
-To assess the minimum completeness of the lab submission materials, you can use the GatorGrader tool.
+To assess the minimum completeness of the lab submission materials,
+you can use the GatorGrader tool.
 Once you have installed [Docker
 Desktop](https://www.docker.com/products/docker-desktop), you can use the
 following `docker run` command to start `gradle grade` as a containerized
@@ -287,15 +296,36 @@ sections.
 
 ## Evaluation
 
-The grade that a student receives on this assignment will have the following components. In addition
-to these three main components, student's grade may be affected by their adherence or the lack of adherence
-to the [Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md) developed for this course.
+The grade that a student receives on this assignment will have the following
+components. In addition
+to these three main components, student's grade may be affected by their
+adherence or the lack of adherence
+to the [Code of Conduct]
+(https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
+developed for this course.
 
-* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build  Status  [up  to 15%]:  Students are encouraged to repeatedly revise their submission to ensure that it passes all of GatorGrader's checks about, for instance, the length of the report, its appropriate use of Markdown, and inclusion of minimal programming constraints.
+* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build  
+Status  [up  to 15%]:  Students are encouraged to repeatedly revise their
+submission to ensure that it passes all of GatorGrader's checks about, for
+instance, the length of the report, its appropriate use of Markdown, and
+inclusion of minimal programming constraints.
 
-* Mastery of Technical Writing [up to 15%]:  Students will also receive a portion of the lab grade when the responses to the technical writing questions presented in the 'writing/report.md' reveal a mastery of both writing skills and conceptual and technical knowledge.  To receive this portion of the grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
+* Mastery of Technical Writing [up to 15%]:  Students will also receive a
+portion of the lab grade when the responses to the technical writing questions
+presented in the 'writing/report.md' reveal a mastery of both writing skills
+and conceptual and technical knowledge.  To receive this portion of the grade,
+the submitted writing should have correct spelling, grammar, and punctuation
+in addition to following the rules of Markdown and providing conceptually
+and technically accurate answers.
 
-* Mastery  of  Technical  Knowledge  and  Skills  [up  to  70%]:   Students  will  receive  a largest portion of their assignment grade when their project implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this project.  As a part of this grade, the instructor will assess aspects of the project including, but not limited to, the designed grammar, correctness of the scanner and the parser, the completeness and correctness of the test cases, and the use of effective source code comments and Git commit messages.
+* Mastery  of  Technical  Knowledge  and  Skills  [up  to  70%]:   Students  
+will  receive  a largest portion of their assignment grade when their project
+implementation reveals that they have mastered all of the technical knowledge
+and skills developed during the completion of this project.  As a part of this
+grade, the instructor will assess aspects of the project including, but not
+limited to, the designed grammar, correctness of the scanner and the parser,
+the completeness and correctness of the test cases, and the use of effective
+source code comments and Git commit messages.
 
 
 ## Problems
