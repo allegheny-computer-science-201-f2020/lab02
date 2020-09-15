@@ -6,6 +6,14 @@ on:
 
 jobs:
 
+  run:
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - run: python src/lab02.py
+
   grade:
     runs-on: ubuntu-latest
     steps:
