@@ -201,7 +201,7 @@ two commands, which are appropriate for your operating system.
 
 `docker build -t sly .`
 
-`docker run --rm -v $(pwd)/src:/root sly python3 lab02.py`
+`docker run --rm -v "%cd%/src":/root sly python3 lab02.py`
 
 
 ### GatorGrader
