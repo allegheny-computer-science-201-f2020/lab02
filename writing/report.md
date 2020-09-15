@@ -1,4 +1,4 @@
-# LAB 02 Report 
+# LAB 02 Report
 
 ## Names
 
@@ -11,7 +11,6 @@ Identify your language to be implemented (name the language and describe its fea
 
 TODO:
 Add rules for your grammar
-
 
 ## Scanner
 
@@ -26,10 +25,12 @@ Describe the features of the parser implementation
 ## Challenges and Learning Experiences
 
 TODO:
-Discuss any challenges you have encountered during the work on this lab and  describe what have you learned.
-
+Discuss any challenges you have encountered during the work on this lab and  
+describe what have you learned.
 
 ## Team Work
 
 TODO:
-Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.
+Describe the details of your team working strategy, specifically explain how
+did you complete this work as a team and describe the specific contributions of
+each team member.

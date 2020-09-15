@@ -16,15 +16,15 @@
 
 * [Creating a Programming Language](#creating-a-programming-language)
 
-  + [Tasks](#tasks)
+  * [Tasks](#tasks)
 
-  + [Grammar](#grammar)
+  * [Grammar](#grammar)
 
-  + [Scanner](#scanner)
+  * [Scanner](#scanner)
 
-  + [Parser](#parser)
+  * [Parser](#parser)
 
-  + [Test Cases](#test-cases)
+  * [Test Cases](#test-cases)
 
 * [Running and Testing](#running-and-testing)
 
@@ -65,13 +65,13 @@ and 2 of the "Programming Language Pragmatics" textbook. You should also
 study the program developed as a part of class activity 3, examine
 example programs provided in this lab02 starter repository, and study
 the documentation of [SLY](https://sly.readthedocs.io/en/latest/) and the
-examples provided in [SLY GitHub Repository]
-(https://github.com/dabeaz/sly/tree/master/example).
+examples provided in
+[SLY GitHub Repository](https://github.com/dabeaz/sly/tree/master/example).
 
 If you have not done so already, please read all of the relevant [GitHub Guides]
 (https://guides.github.com/) that explain how to use many of the features
 that GitHub provides. In  particular,  please  make  sure  that  you  have  read
-guides  such  as  "Understanding the GitHub flow", "Mastering  Markdown"  
+guides  such  as  "Understanding the GitHub flow", "Mastering  Markdown"
 and "Documenting Your Projects on GitHub";
 each of them will help you to understand how to use both GitHub and GitHub Classroom.
 Each team is expected to use branching and appropriate GitHub flow processes as
@@ -97,7 +97,6 @@ in our GitHub organization. Teams have pretty cool functionality, including
 threaded comments and emoji support. Every team member will be able to push
 and pull to their team’s repository.
 
-
 ## Team Work
 
 Each member of the class will be arranged into a team at the beginning
@@ -106,11 +105,10 @@ of two or three individuals.
 
 Your team should use GitHub and its features (e.g., issue tracker, pull requests,
 commit log, and code review request) to complete all of the tasks referenced in
-the previous section.  Since  multiple  approaches  may  support  
+the previous section.  Since  multiple  approaches  may  support
 the  effective  completion  of  the required  documents, this assignment
 does not dictate team organization or communication strategies. Each team is
-expected to follow the [Code of Conduct]
-(https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
+expected to follow the [Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
 the class members developed for this course.
 
 ## Creating a Programming Language
@@ -211,7 +209,6 @@ two commands, which are appropriate for your operating system.
 
 `docker run --rm -v "%cd%/src":/root sly python3 lab02.py`
 
-
 ### GatorGrader
 
 To assess the minimum completeness of the lab submission materials,
@@ -287,7 +284,8 @@ Here are some additional commands that you may need to run when using Docker:
 
 GitHub Actions CI is configured to check the Markdown files in
 the repository with "mdl".  If your program and the writing meets the
-minimal established requirements, then you will see a green :heavy_check_mark: in the listing of
+minimal established requirements, then you will see a green :heavy_check_mark:
+in the listing of
 commits in GitHub.  If your submission does not meet the requirements,
 a red :heavy_multiplication_x: will appear instead.  Since this assignment
 contains a large creative and open-ended portion, the majority of your lab grade
@@ -304,7 +302,7 @@ to the [Code of Conduct]
 (https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
 developed for this course.
 
-* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build  
+* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build
 Status  [up  to 15%]:  Students are encouraged to repeatedly revise their
 submission to ensure that it passes all of GatorGrader's checks about, for
 instance, the length of the report, its appropriate use of Markdown, and
@@ -318,7 +316,7 @@ the submitted writing should have correct spelling, grammar, and punctuation
 in addition to following the rules of Markdown and providing conceptually
 and technically accurate answers.
 
-* Mastery  of  Technical  Knowledge  and  Skills  [up  to  70%]:   Students  
+* Mastery  of  Technical  Knowledge  and  Skills  [up  to  70%]: Students
 will  receive  a largest portion of their assignment grade when their project
 implementation reveals that they have mastered all of the technical knowledge
 and skills developed during the completion of this project.  As a part of this
@@ -326,7 +324,6 @@ grade, the instructor will assess aspects of the project including, but not
 limited to, the designed grammar, correctness of the scanner and the parser,
 the completeness and correctness of the test cases, and the use of effective
 source code comments and Git commit messages.
-
 
 ## Problems
 
