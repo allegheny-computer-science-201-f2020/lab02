@@ -121,7 +121,7 @@ for this language.
 You are encouraged to be creative in your design of a language, however it
 should satisfy the certain minimal requirements outlined below.
 
-#### Grammar
+### Grammar
 
 Once you have an idea for the type of a language to construct, the
 first step should be to define its grammar. Please construct grammar rules
@@ -181,7 +181,7 @@ grammars can be somewhat loose, some apparently nonsensical constructions will
 parse correctly since you are not doing any of the work for verify semantic
 validity (type checking, declare before use, etc.).
 
-#### Test Cases
+### Test Cases
 
 To ensure that your scanner and your parser operate correctly, you are to
 create at least ten input examples to use in testing. These inputs should contain
