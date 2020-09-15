@@ -12,7 +12,7 @@ jobs:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
-    - run: python src/lab02.py
+    - run: python lab02.py
 
   grade:
     runs-on: ubuntu-latest
