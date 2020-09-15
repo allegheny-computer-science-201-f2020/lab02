@@ -153,7 +153,7 @@ At the minimum, your scanner should support the following:
 * recognize at least one conditional statement,
 * recognize new lines,
 * recognize comments,
-* report lexical errors for invalid characters and any other improper lexical notations you are able to catch at this point.
+* report lexical errors.
 
 It is recommended that you add token types one at a time and test after each addition.
 For any items that are not explicitly defined in your source language
@@ -295,7 +295,8 @@ sections.
 ## Evaluation
 
 The grade that a student receives on this assignment will have the following
-components. In addition to these three main components, student's grade may be affected by their adherence or the lack of adherence to the [Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md) developed for this course.
+components. In addition to these three main components, student's grade may be affected by their adherence or the lack of adherence to the
+[Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md) developed for this course.
 
 Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build Status [up  to 15%]: Students are encouraged to repeatedly revise their submission to ensure that it passes all of GatorGrader's checks and receives a CI pass.
 
