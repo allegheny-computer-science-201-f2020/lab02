@@ -298,10 +298,11 @@ sections.
 The grade that a student receives on this assignment will have the following
 components. In addition
 to these three main components, student's grade may be affected by their
-adherence or the lack of adherence to the
-[Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md) developed for this course.
+adherence or the lack of adherence to the[Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md) developed for this course.
 
-* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build Status [up  to 15%]: Students are encouraged to repeatedly revise their submission to ensure that it passes all of GatorGrader's checks and receives a CI pass.
+* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build Status [up  to 15%]: Students are encouraged to repeatedly revise their
+submission to ensure that it passes all of GatorGrader's checks and receives
+a CI pass.
 
 * Mastery of Technical Writing [up to 15%]:  Students will also receive a portion of the lab grade when the responses to the technical writing questions presented in the 'writing/report.md' reveal a mastery of both writing skills and conceptual and technical knowledge.  To receive this portion of the grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
 
