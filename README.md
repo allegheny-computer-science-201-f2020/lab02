@@ -156,8 +156,8 @@ At the minimum, your scanner should support the following:
 * report lexical errors for invalid characters and any other improper lexical notations you are able to catch at this point.
 
 It is recommended that you add token types one at a time and test after each addition.
-For any items that are not explicitly defined in your source language documentation,
-you can make any assumptions as appropriate.
+For any items that are not explicitly defined in your source language
+documentation, you can make any assumptions as appropriate.
 
 ### Parser
 
@@ -301,28 +301,11 @@ adherence or the lack of adherence to the
 [Code of Conduct](https://github.com/allegheny-computer-science-201-f2020/lab01-cs201f2020/blob/main/conduct.md)
 developed for this course.
 
-* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build
-Status [up  to 15%]:  Students are encouraged to repeatedly revise their
-submission to ensure that it passes all of GatorGrader's checks about, for
-instance, the length of the report, its appropriate use of Markdown, and
-inclusion of minimal programming constraints.
+* Percentage  of  Correct  GatorGrader  Checks  and  GitHub Actions  CI  Build Status [up  to 15%]:  Students are encouraged to repeatedly revise their submission to ensure that it passes all of GatorGrader's checks about, for instance, the length of the report, its appropriate use of Markdown, and inclusion of minimal programming constraints.
 
-* Mastery of Technical Writing [up to 15%]:  Students will also receive a
-portion of the lab grade when the responses to the technical writing questions
-presented in the 'writing/report.md' reveal a mastery of both writing skills
-and conceptual and technical knowledge.  To receive this portion of the grade,
-the submitted writing should have correct spelling, grammar, and punctuation
-in addition to following the rules of Markdown and providing conceptually
-and technically accurate answers.
+* Mastery of Technical Writing [up to 15%]:  Students will also receive a portion of the lab grade when the responses to the technical writing questions presented in the 'writing/report.md' reveal a mastery of both writing skills and conceptual and technical knowledge.  To receive this portion of the grade, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing conceptually and technically accurate answers.
 
-* Mastery  of  Technical  Knowledge  and  Skills  [up  to  70%]: Students
-will  receive  a largest portion of their assignment grade when their project
-implementation reveals that they have mastered all of the technical knowledge
-and skills developed during the completion of this project.  As a part of this
-grade, the instructor will assess aspects of the project including, but not
-limited to, the designed grammar, correctness of the scanner and the parser,
-the completeness and correctness of the test cases, and the use of effective
-source code comments and Git commit messages.
+* Mastery  of  Technical  Knowledge  and  Skills  [up  to  70%]: Students will  receive  a largest portion of their assignment grade when their project implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this project.  As a part of this grade, the instructor will assess aspects of the project including, but not limited to, the designed grammar, correctness of the scanner and the parser, the completeness and correctness of the test cases, and the use of effective source code comments and Git commit messages.
 
 ## Problems
 
