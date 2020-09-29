@@ -16,7 +16,7 @@ indent: 4
 
 # --> check the source code for various characteristics
 src:
-    lab02:
+    lab02.py:
             ConfirmFileExists
             CountSingleLineComments --language Python --count 4
             #CountMultipleLineComments --language Java --count 2
@@ -35,7 +35,7 @@ src:
 writing/report.md:
     ConfirmFileExists
     CountFileWords --count 250
-    CountMarkdownTags --tag "heading" --count 7 --exact
+    CountMarkdownTags --tag "heading" --count 8 --exact
     #CountMarkdownTags --tag "code" --count 3 --exact
     #CountMarkdownTags --tag "code_block" --count 1 --exact
     #CountMarkdownTags --tag "list" --count 1
